@@ -10,6 +10,9 @@
   "INITIAL_ALIGN_X": "left",
   "INITIAL_ALIGN_Y": "top",
 
+  "NEAR_SQUARE_TOLERANCE": 0.1,
+  "NEAR_SQUARE_SCALE": 0.8,
+
   "FONT_CATALOG": [
     { "id": "georgia",  "label": "Georgia (system)",  "family": "Georgia, serif" },
     { "id": "times",    "label": "Times (system)",    "family": "\"Times New Roman\", Times, serif" },
