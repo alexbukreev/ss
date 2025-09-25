@@ -76,7 +76,8 @@
       "fontFamily": "Georgia, serif",
       "lineHeight": 1.25,
       "letterSpacing": 0,
-      "width": 900
+      "width": 900,
+      "rotation": -90
     },
     {
       "type": "text",
