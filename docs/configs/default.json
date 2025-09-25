@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "MAX_CARDS": 16,
+  "CARD_EXPORT_SIZE": 2050,
+  "PREVIEW_EXACT_SIZE": 1024,
+  "PREVIEW_FAST_SIZE": 800,
+  "PDF_JPEG_QUALITY": 0.8,
+
+  "IMAGE_FIT_MODE": "contain",
+  "INITIAL_ALIGN_X": "left",
+  "INITIAL_ALIGN_Y": "top",
+
+  "FONT_CATALOG": [
+    { "id": "georgia",  "label": "Georgia (system)",  "family": "Georgia, serif" },
+    { "id": "times",    "label": "Times (system)",    "family": "\"Times New Roman\", Times, serif" },
+    { "id": "garamond", "label": "Garamond (system)", "family": "Garamond, serif" },
+
+    { "id": "helvetica", "label": "Helvetica (system)", "family": "\"Helvetica Neue\", Helvetica, Arial, sans-serif" },
+
+    { "id": "roboto", "label": "Roboto (Google)",
+      "family": "\"Roboto\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "cssHref": "https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
+    },
+    { "id": "roboto-mono", "label": "Roboto Mono (Google)",
+      "family": "\"Roboto Mono\", ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", monospace",
+      "cssHref": "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap"
+    },
+
+    { "id": "courier-new", "label": "Courier New (system)", "family": "\"Courier New\", Courier, monospace" }
+  ],
+  "DEFAULTS": {
+    "BACKGROUND": { "color": "#ffffff", "alpha": 1 },
+    "TEXT": {
+      "x": 40,
+      "y": -140,
+      "text": "New text",
+      "fontFamily": "Georgia, serif",
+      "fontSize": 36,
+      "fontStyle": "",
+      "fill": "#111",
+      "align": "left",
+      "verticalAlign": "top",
+      "padding": 0,
+      "lineHeight": 1.25,
+      "letterSpacing": 0
+    },
+    "RECT": {
+      "x": 40, "y": 40,
+      "width": 600, "height": 300,
+      "fill": "#ffffff",
+      "stroke": null,
+      "strokeWidth": 0,
+      "cornerRadius": 0,
+      "opacity": 1
+    },
+    "IMAGE": {
+      "x": 40, "y": 40, "w": null, "h": null
+    },
+    "QR": {
+      "x": 40, "y": 40, "size": 512, "text": "https://example.com"
+    }
+  },
+  "DEFAULT_CARD_LAYERS": [
+    {
+      "type": "text",
+      "x": 40,
+      "y": -120,
+      "text": "New text",
+      "fontSize": 48,
+      "fill": "red",
+      "align": "left",
+      "fontFamily": "Georgia, serif",
+      "lineHeight": 1.25,
+      "letterSpacing": 0
+    },
+    {
+      "type": "text",
+      "x": 40,
+      "y": -60,
+      "text": "Subtitle",
+      "fontSize": 28,
+      "fill": "#000000"
+    },
+    { "type": "rect", "x": 40, "y": 40, "width": 600, "height": 120, "fill": "#000000", "opacity": 0.35 },
+    { "type": "qr",   "x": 40, "y": 40, "size": 256, "text": "https://..." }
+  ]
+}
