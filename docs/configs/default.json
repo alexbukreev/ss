@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "MAX_CARDS": 16,
+  "MAX_CARDS": 32,
   "CARD_EXPORT_SIZE": 2050,
   "PREVIEW_EXACT_SIZE": 1024,
   "PREVIEW_FAST_SIZE": 800,
@@ -34,6 +34,7 @@
   "DEFAULTS": {
     "BACKGROUND": { "color": "gray", "alpha": 1 },
     "TEXT": {
+      "name": "layer_1",
       "x": 100,
       "y": 100,
       "text": "Новый текст",
@@ -61,12 +62,14 @@
       "x": 40, "y": 40, "w": null, "h": null
     },
     "QR": {
+      "name": "layer_2",
       "x": 40, "y": 40, "size": 100, "text": "https://example.com"
     }
   },
   "DEFAULT_CARD_LAYERS": [
     {
       "type": "text",
+      "name": "layer_1",
       "x": 40,
       "y": 1600,
       "text": "New text",
@@ -89,15 +92,16 @@
       "width": 900
     },
     { "type": "rect", "x": 40, "y": 40, "width": 600, "height": 120, "fill": "#000000", "opacity": 0.35 },
-    { "type": "qr",   "x": 40, "y": 40, "size": 256, "text": "https://..." }
+    { "type": "qr",  "name": "layer_2", "x": 40, "y": 40, "size": 256, "text": "https://..." }
   ],
   "LAYER_PROFILES": {
   "orientation": {
     "on": true,
-    "landscape": [ { "type": "text", "x": 1400, "y": 1600, "text": "LAND", "fontSize": 150, "fill": "red" } ],
-    "portrait":  [ { "type": "text", "x": 400, "y": 1000,  "text": "PORT", "fontSize": 150, "fill": "red" } ],
+    "landscape": [ { "type": "text", "name": "layer_3", "x": 1400, "y": 1600, "text": "LAND", "fontSize": 150, "fill": "red" } ],
+    "portrait":  [ { "type": "text", "name": "layer_3", "x": 400, "y": 1000,  "text": "PORT", "fontSize": 150, "fill": "red" } ],
     "square":    [ {
-                    "type": "text",
+                    "type": "text", 
+                    "name": "layer_3",
                     "x": 400,
                     "y": 1000,
                     "text": "SQ",
