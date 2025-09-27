@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "MAX_CARDS": 32,
+  "MAX_CARDS": 64,
   "CARD_EXPORT_SIZE": 2050,
   "PREVIEW_EXACT_SIZE": 1024,
   "PREVIEW_FAST_SIZE": 800,
