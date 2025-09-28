@@ -6,7 +6,7 @@
   "PREVIEW_FAST_SIZE": 800,
   "PDF_JPEG_QUALITY": 0.8,
 
-  "IMAGE_FIT_MODE": "contain",
+  "IMAGE_FIT_MODE": "cover",
   "INITIAL_ALIGN_X": "left",
   "INITIAL_ALIGN_Y": "top",
 
@@ -41,7 +41,7 @@
       "fontFamily": "Georgia, serif",
       "fontSize": 136,
       "fontStyle": "",
-      "fill": "red",
+      "fill": "green",
       "align": "left",
       "verticalAlign": "top",
       "padding": 0,
@@ -52,7 +52,7 @@
     "RECT": {
       "x": 40, "y": 40,
       "width": 600, "height": 300,
-      "fill": "red",
+      "fill": "green",
       "stroke": null,
       "strokeWidth": 0,
       "cornerRadius": 0,
@@ -63,7 +63,7 @@
     },
     "QR": {
       "name": "layer_2",
-      "x": 40, "y": 40, "size": 100, "text": "https://example.com"
+      "x": 140, "y": 40, "size": 300, "text": "https://example.com"
     }
   },
   "DEFAULT_CARD_LAYERS": [
