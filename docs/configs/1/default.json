@@ -11,7 +11,7 @@
   "INITIAL_ALIGN_Y": "top",
 
   "NEAR_SQUARE_TOLERANCE": 0.1,
-  "NEAR_SQUARE_SCALE": 0.8,
+  "NEAR_SQUARE_SCALE": 0.75,
 
   "FONT_CATALOG": [
     { "id": "georgia",  "label": "Georgia (system)",  "family": "Georgia, serif" },
@@ -32,9 +32,9 @@
     { "id": "courier-new", "label": "Courier New (system)", "family": "\"Courier New\", Courier, monospace" }
   ],
   "DEFAULTS": {
-    "BACKGROUND": { "color": "#DCDCDC", "alpha": 1 },
+    "BACKGROUND": { "color": "red", "alpha": 1 },
     "TEXT": {
-      "name": "layer_1",
+      "name": "New layer",
       "x": 100,
       "y": 100,
       "text": "Новый текст",
@@ -67,36 +67,10 @@
     }
   },
   "DEFAULT_CARD_LAYERS": [
-    {
-      "type": "text",
-      "name": "layer_1",
-      "x": 40,
-      "y": 1600,
-      "text": "New text",
-      "fontSize": 155,
-      "fill": "red",
-      "align": "left",
-      "fontFamily": "Georgia, serif",
-      "lineHeight": 1.25,
-      "letterSpacing": 0,
-      "width": 900,
-      "rotation": -90
-    },
-    {
-      "type": "text",
-      "x": 65,
-      "y": 1900,
-      "text": "Subtitle",
-      "fontSize": 65,
-      "fill": "#000000",
-      "width": 900
-    },
-    { "type": "rect", "x": 40, "y": 40, "width": 600, "height": 120, "fill": "#000000", "opacity": 0.35 },
-    { "type": "qr",  "name": "layer_2", "x": 40, "y": 40, "size": 256, "text": "https://..." }
-  ],
+    ],
   "LAYER_PROFILES": {
   "orientation": {
-    "on": true,
+    "on": false,
     "landscape": [ { "type": "text", "name": "layer_3", "x": 1400, "y": 1600, "text": "LAND", "fontSize": 150, "fill": "red" } ],
     "portrait":  [ { "type": "text", "name": "layer_3", "x": 400, "y": 1000,  "text": "PORT", "fontSize": 150, "fill": "red" } ],
     "square":    [ {
