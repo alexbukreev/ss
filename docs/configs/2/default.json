@@ -34,7 +34,7 @@
   "DEFAULTS": {
     "BACKGROUND": { "color": "#DCDCDC", "alpha": 1 },
     "TEXT": {
-      "name": "New layer",
+      "name": "layer_1",
       "x": 100,
       "y": 100,
       "text": "Новый текст",
@@ -67,23 +67,7 @@
     }
   },
   "DEFAULT_CARD_LAYERS": [
-    { "type": "rect", "x": 259, "y": 108, "width": 600, "height": 120, "fill": "#2A4D2B", "opacity": 0.8, "width": 700 },
-    { "type": "qr",  "name": "layer_2", "x": 40, "y": 40, "size": 256, "text": "https://cha108.ru/" },
-    {
-      "type": "text",
-      "name": "layer_1",
-      "x": 334,
-      "y": 111,
-      "text": "Чайная высота",
-      "fontSize": 80,
-      "fill": "white",
-      "align": "left",
-      "fontFamily": "Georgia, serif",
-      "lineHeight": 1.25,
-      "letterSpacing": 0,
-      "width": 700
-    }
-  ],
+    ],
   "LAYER_PROFILES": {
   "orientation": {
     "on": true,
